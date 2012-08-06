@@ -13,7 +13,6 @@ namespace NeverEndingPagingUIScrollView
 		HashSet<PageViewController> VisiblePages = new HashSet<PageViewController> ();
 		HashSet<PageViewController> RecycledPages = new HashSet<PageViewController> ();
 		UIScrollView PagingView;
-		bool isAnimating;
 
 		public NeverEndingViewController ()
 			: base ("NeverEndingViewController", null)
@@ -38,15 +37,9 @@ namespace NeverEndingPagingUIScrollView
 				ShowsHorizontalScrollIndicator = false,
 			};
 			PagingView.Scrolled += (sender, e) => {
-				if (!isAnimating)
-					isAnimating = true;
 				TilePages ();
 			};
-			PagingView.ScrollAnimationEnded += (sender, e) => {
-				isAnimating = false;
-			};
 			PagingView.DecelerationEnded += (sender, e) => {
-				isAnimating = false;
 				Console.WriteLine (" VisiblePages: Count={0}; Indexes={1}", VisiblePages.Count, string.Join (", ", VisiblePages.Select (p => p.Index)));
 				Console.WriteLine ("RecycledPages: Count={0}; Indexes={1}", RecycledPages.Count, string.Join (", ", RecycledPages.Select (p => p.Index)));
 			};
