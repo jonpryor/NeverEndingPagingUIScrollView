@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeverEndingPagingUIScrollView", "NeverEndingPagingUIScrollView\NeverEndingPagingUIScrollView.csproj", "{4A4059A5-C3AA-4A89-827C-F4F2102F1076}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A4059A5-C3AA-4A89-827C-F4F2102F1076}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{4A4059A5-C3AA-4A89-827C-F4F2102F1076}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{4A4059A5-C3AA-4A89-827C-F4F2102F1076}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{4A4059A5-C3AA-4A89-827C-F4F2102F1076}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{4A4059A5-C3AA-4A89-827C-F4F2102F1076}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{4A4059A5-C3AA-4A89-827C-F4F2102F1076}.Debug|iPhone.Build.0 = Debug|iPhone
+		{4A4059A5-C3AA-4A89-827C-F4F2102F1076}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{4A4059A5-C3AA-4A89-827C-F4F2102F1076}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{4A4059A5-C3AA-4A89-827C-F4F2102F1076}.Release|iPhone.ActiveCfg = Release|iPhone
+		{4A4059A5-C3AA-4A89-827C-F4F2102F1076}.Release|iPhone.Build.0 = Release|iPhone
+		{4A4059A5-C3AA-4A89-827C-F4F2102F1076}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{4A4059A5-C3AA-4A89-827C-F4F2102F1076}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = NeverEndingPagingUIScrollView\NeverEndingPagingUIScrollView.csproj
+	EndGlobalSection
+EndGlobal
